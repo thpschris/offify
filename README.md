@@ -25,7 +25,7 @@ A Python tool to migrate Spotify playlists to YouTube Music while maintaining tr
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/offify.git
+   git clone https://github.com/thpschris/offify.git
    cd offify
    ```
 
