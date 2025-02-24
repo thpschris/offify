@@ -4,16 +4,16 @@ A Python tool to migrate Spotify playlists to YouTube Music while maintaining tr
 
 ## Features
 
-- 🎵 Migrate single or all Spotify playlists to YouTube Music
-- 🔍 Smart track matching with multiple validation checks:
+-  Migrate single or all Spotify playlists to YouTube Music
+-  Smart track matching with multiple validation checks:
   - Fuzzy matching for artist/title comparison
   - Duration-based validation (15% tolerance)
   - Minimum similarity threshold (0.6)
-- 📁 Progress tracking with JSON storage
-- 🔄 Update existing playlists
-- 📊 Detailed logging system
-- ⏱️ Rate limiting protection
-- 🎯 Batch migration support
+-  Progress tracking with JSON storage
+-  Update existing playlists
+-  Detailed logging system
+-  Rate limiting protection
+-  Batch migration support
 
 ## Prerequisites
 
@@ -106,11 +106,11 @@ The tool supports two main modes of operation:
 
 ## Important Notes
 
-- ⚠️ Never commit your `.env` file
-- 📊 Check `playlist_migration.log` for detailed operation logs
-- 🔄 Previously migrated playlists can be updated with new tracks
-- ⏱️ Migration speed is intentionally throttled to respect API limits
-- 🎵 Not all tracks may find matches on YouTube Music
+-  Never commit your `.env` file
+-  Check `playlist_migration.log` for detailed operation logs
+-  Previously migrated playlists can be updated with new tracks
+-  Migration speed is intentionally throttled to respect API limits
+-  Not all tracks may find matches on YouTube Music
 
 ## License
 
